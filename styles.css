@@ -9,6 +9,7 @@ body {
   font-size: 17px;
   line-height: 19px;
   font-weight: bold;
+  margin: 30px 20px;
 }
 
 ul {
@@ -58,7 +59,7 @@ ul {
 }
 
 .mapa {
-  grid-area: span 5 / span 1;
+  grid-area: span 4 / span 1;
   text-align: center;
 }
 
@@ -89,14 +90,25 @@ ul {
   margin: 20px auto;
 }
 
+.mapa p:nth-child(5) {
+  padding-bottom: 15px;
+  border-bottom: 4px solid black;
+}
+
 
 .news {
-  grid-area: span 10 / span 1;
+  grid-area: span 8 / span 1;
   text-align: center;  
 }
 
 .news p {
   margin: 0;
+  line-height: 22px;
+}
+
+.news p:nth-child(12) {
+  padding-bottom: 15px;
+  border-bottom: 4px solid black;
 }
 
 .TECHNOLOGY {
@@ -142,9 +154,16 @@ ul {
 
 }
 
+.born ul li:nth-child(5) {
+  padding-bottom: 15px;
+  border-bottom: 4px solid black;
+}
+
 .martinlutherking {
   grid-area: span 2 / span 1;
   text-align: center;
+  padding-bottom: 15px;
+  border-bottom: 4px solid black;
 }
 
 .instyle {
@@ -202,8 +221,12 @@ ul {
   font-size: 20px;
 }
 
+.uspresident figure {
+  margin: 0;
+}
+
 .black-title {
-  color: wheat;
+  color: white;
   background-color: black;
   font-family: "Crimson Text", serif;
   text-align: center;
@@ -212,11 +235,11 @@ ul {
 }
 
 .a {
-  font-size: 149%;
+  font-size: 120%;
 }
 
 .b {
-  font-size: 200%;
+  font-size: 170%;
 }
 
 .c {
@@ -224,5 +247,5 @@ ul {
 }
 
 .d {
-  font-size: 160%;
+  font-size: 170%;
 }
