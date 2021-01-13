@@ -4,18 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel=StyleSheet href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="StyleSheet" href="styles.css" />
   </head>
 
   <body>
-    <header>
+    <header class="head">
       <h1>BACK IN 1964</h1>
       <h2>MARY STEINER WAS BORN ON AUGUST 3th!</h2>
     </header>
 
-    <main>
-      <section>
-        <h3>ECONOMIC STATISTICS</h3>
+    <main class="grid-container">
+      <section class="item statistics">
+        <h3 class="black-title a">ECONOMIC STATISTICS</h3>
 
         <table>
           <colgroup>
@@ -34,20 +36,61 @@
               </ul>
             </td>
             <td>
-              <ul>
-                <li>%1.28</li>
-                <li>$6.000</li>
-                <li>$115.000</li>
-                <li>$13.100</li>
-                <li>.30</li>
-                <li>1.25</li>
+              <ul class="statistics-values">
+                <li>% 1.28</li>
+                <li>$ 6.000</li>
+                <li>$ 115.000</li>
+                <li>$ 13.100</li>
+                <li>$ .30</li>
+                <li>$ 1.25</li>
               </ul>
             </td>
           </tr>
         </table>
       </section>
-      <section>
-        <h3>TECHNOLOGY</h3>
+
+      <section class="item mapa">
+        <p class="mapa__box-title"><strong class="mapa__title">Time Magazine´s Man of the Year</strong></p>
+        <p class="mapa__author">Lyndon B. Johnson</p>
+        
+        <figure>
+          <img src="./assets/mapa.svg" alt="" width="200px" />
+        </figure>
+        <p class="mapa__name">WORLD POPULATION</p>
+        <p class="mapa__name">3.273 BILLION</p>
+      </section>
+
+      <section class="item news">
+        <h3 class="black-title b">IN THE NEWS...</h3>
+        <p>
+          Washington D.C. residents are able to vote in a presidential election
+          for the first time.
+        </p>
+        <p>*</p>
+        <p>
+          The most powerful earthquake in U.S. history at a magnitude of 9.2,
+          strikes south central Alaske
+        </p>
+        <p>*</p>
+        <p>
+          Star of india sapphir stolen from American Museum of Natural History
+          of New York.
+        </p>
+        <p>*</p>
+        <p>The first pirate radio station, Radio Caroline, is established.</p>
+        <p>*</p>
+        <p>
+          Sidney Poitier becomes the first black actor to win the "best actor"
+          Oscar.
+        </p>
+        <p>*</p>
+        <p>
+          The beatle have 13 singles on Billboards´s Hot 100 at the same time
+        </p>
+      </section>
+
+      <section class="item TECHNOLOGY">
+        <h3 class="black-title c">TECHNOLOGY</h3>
         <p>
           BASIC(Beginners´ All purpose Symbolic Instruction Code), an easy to
           learn high level programming language is introduced.
@@ -55,9 +98,29 @@
         <p>*</p>
         <p>The first Ford Mustang from Ford Motor Compay is made.</p>
       </section>
-      <section>
+
+      <section class="item born">
+        <p><strong>Born in 1964</strong></p>
+        <ul>
+          <li>Nicolas Cage</li>
+          <li>Courteney Cox</li>
+          <li>Brad Pitt</li>
+          <li>Sandra Bullock</li>
+          <li>Michelle Obama</li>
+        </ul>
+        <figure class="born__stars">
+          <img src="./assets/stars.svg" alt="" width="45px" />
+        </figure>
+      </section>
+
+      <section class="item martinlutherking">
+        Dr. Martin Luther King is awarted the Nobel Peace price for his
+        nonviolent resistance to radical prejudice in america
+      </section>
+
+      <section class="item instyle">
         <h4><strong>IN</strong> <em> Style... </em></h4>
-        <p><strong>Women</strong></p>
+        <p><strong>WOMEN</strong></p>
         <em>
           <p>Slender tunics</p>
           <p>Bellbottom pants</p>
@@ -76,64 +139,23 @@
         >
       </section>
 
-      <section>
-          <p><strong>Time Magazine´s Man of the Year</strong></p>
-          <p>Lyndon B. Johnson</p>
-          <P>WORLD POPULATION</P>
-          <figure>
-              <img src="./assets/mapa.svg" alt="">
-          </figure>
-          <P>3.273 BILLION</P>
-      </section>
-
-      <section>
-          <p><strong>Born in 1964</strong></p>
-          <ul>
-              <li>Nicolas Cage</li>
-              <li>Courteney Cox</li>
-              <li>Brad Pitt</li>
-              <li>Sandra Bullock</li>
-              <li>Michelle Obama</li>
-          </ul>
-          <figure>
-              <img src="./assets/stars.svg" alt="">
-          </figure>
-      </section>
-
-      <section>
-        <h3>TOP SONGS</h3>
-        <figure><img src="./assets/sol.svg" alt=""></figure>
+      <section class="item songs">
+        <h3 class="black-title d">TOP SONGS</h3>
+        <figure><img src="./assets/sol.svg" alt="" /></figure>
         <p>"She Loves You"</p>
         <p>THE BEATLES</p>
-        <P>"Hello Dolly!"</P>
+        <p>"Hello Dolly!"</p>
         <p>LOUIS AMSTRONG</p>
         <p>"Everybody Loves Somebody"</p>
         <p>THE BEACH BOYS</p>
-        <P>"Oh, Pretty Womas"</P>
+        <p>"Oh, Pretty Womas"</p>
         <p>ROY ORBISON</p>
       </section>
-      <section>
-        <h3>IN THE NEWS</h3>
-        <p>Washington D.C. residents are able to vote in a presidential election for the first time.</p>
-        <p>*</p>
-        <p>The most powerful earthquake in U.S. history at a magnitude of 9.2, strikes south central Alaske</p>
-        <p>*</p>
-        <p>Star of india sapphir stolen from American Museum of Natural History of New York.</p>
-        <p>*</p>
-        <p>The first pirate radio station, Radio Caroline, is established.</p>
-        <p>*</p>
-        <p>Sidney Poitier becomes the first black actor to win the "best actor" Oscar.</p>
-        <p>*</p>
-        <p>The beatle have 13 singles on Billboards´s Hot 100 at the same time</p>
 
-      </section>
-      <section>
-          Dr. Martin Luther King is awarted the Nobel Peace price for his nonviolent resistance to radical prejudice in america
-      </section>
-      <section>
-          <figure><img src="./assets/firma.svg" alt=""></figure>
-          <p>U.S. PRESIDENT</p>
-          <p><em>Lyndon B. Johnson</em></p>
+      <section class="item uspresident">
+        <figure><img src="./assets/firma.svg" alt="" width="100%" /></figure>
+        <p>U.S. PRESIDENT</p>
+        <p><em>Lyndon B. Johnson</em></p>
       </section>
     </main>
   </body>

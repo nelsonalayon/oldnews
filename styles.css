@@ -1,3 +1,187 @@
 body {
-  background-color: #cd853f;
+  background: rgb(241, 237, 231);
+  background: radial-gradient(
+    circle,
+    rgba(241, 237, 231, 1) 0%,
+    rgba(226, 214, 198, 1) 100%
+  );
+  font-family: "Crimson Text", serif;
+  font-size: 17px;
+  line-height: 19px;
+  font-weight: bold;
+}
+
+ul {
+  padding: 20;
+  margin: 0;
+}
+
+.statistics-values {
+  list-style-type: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  /* grid-auto-rows: 350px; */
+  grid-auto-flow: row;
+}
+
+.head {
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 20px;
+}
+
+.head h1 {
+  font-size: 15vw;
+  margin: 0;
+  text-align: center;
+  line-height: 1;
+}
+
+.head h2 {
+  font-size: 4.8vw;
+  margin: 0 1em;
+  text-align: center;
+  border-top: 10px solid black;
+  border-bottom: 10px solid black;
+  line-height: 1.2;
+}
+
+.statistics {
+  grid-area: span 3 / span 1;
+}
+
+.mapa {
+  grid-area: span 5 / span 1;
+  text-align: center;
+}
+
+.mapa__title {
+  font-size: 22px;
+  line-height: 25px;
+}
+
+.mapa__box-title {
+  padding: 0 40px;
+  margin: 0;
+}
+
+.mapa__author {
+  font-weight: normal;
+  font-size: 21px;
+  margin: 0;
+}
+
+.mapa__name {
+  font-size: 22px;
+  line-height: 25px;
+  margin: 0;
+  font-weight: normal;
+}
+
+
+.news {
+  grid-area: span 10 / span 1;
+  text-align: center;  
+}
+
+.news p {
+  margin: 0;
+}
+
+.TECHNOLOGY {
+  grid-area: span 4 / span 1;
+  text-align: center;
+}
+
+.TECHNOLOGY p {
+
+  margin: 0;
+}
+
+.born {
+  grid-area: span 4 / span 1;
+  text-align: center;
+  position: relative;
+}
+
+.born strong {
+  font-size: 30px;
+}
+
+.born ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+  
+}
+
+.born__stars {
+  position: absolute;
+  top:100px;
+  right: 0;
+
+}
+
+.martinlutherking {
+  grid-area: span 2 / span 1;
+  text-align: center;
+}
+
+.instyle {
+  grid-area: span 7 / span 1;
+  text-align: center;
+
+}
+
+.instyle p {
+  margin: 0;
+}
+
+.instyle h4 {
+  font-size: 30px;
+}
+
+.instyle p strong {
+  font-size: 22px;
+}
+
+
+.songs {
+  grid-area: span 5 / span 1;
+}
+
+.uspresident {
+  grid-area: span 2 / span 1;
+}
+
+.black-title {
+  color: wheat;
+  background-color: black;
+  font-family: "Crimson Text", serif;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0 0 15px 0;
+}
+
+.a {
+  font-size: 149%;
+}
+
+.b {
+  font-size: 200%;
+}
+
+.c {
+  font-size: 160%;
+}
+
+.d {
+  font-size: 160%;
 }
