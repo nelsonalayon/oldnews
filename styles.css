@@ -16,6 +16,10 @@ ul {
   margin: 0;
 }
 
+.item {
+  padding: 0 20px;
+}
+
 .statistics-values {
   list-style-type: none;
 }
@@ -81,6 +85,10 @@ ul {
   font-weight: normal;
 }
 
+.mapa__mapa {
+  margin: 20px auto;
+}
+
 
 .news {
   grid-area: span 10 / span 1;
@@ -94,11 +102,16 @@ ul {
 .TECHNOLOGY {
   grid-area: span 4 / span 1;
   text-align: center;
+  
 }
 
 .TECHNOLOGY p {
-
   margin: 0;
+}
+
+.TECHNOLOGY p:nth-child(4) {
+  padding-bottom: 15px;
+  border-bottom: 4px solid black;
 }
 
 .born {
@@ -137,6 +150,7 @@ ul {
 .instyle {
   grid-area: span 7 / span 1;
   text-align: center;
+  line-height: 22px;
 
 }
 
@@ -146,6 +160,7 @@ ul {
 
 .instyle h4 {
   font-size: 30px;
+  margin: 10px 0 15px 0
 }
 
 .instyle p strong {
@@ -155,10 +170,36 @@ ul {
 
 .songs {
   grid-area: span 5 / span 1;
+  text-align: center;
+  position: relative;
+}
+
+.songs__treble-clef {
+  position: absolute;
+  margin: 0;
+  left: 20px;
+}
+
+.songs__musicalnotes {
+  position: absolute;
+  margin: 0;
+  bottom: 15px;
+  right: 0;
+}
+
+.songs p {
+  margin: 0;
+  line-height: 25px;
 }
 
 .uspresident {
   grid-area: span 2 / span 1;
+  text-align: center;
+}
+
+.uspresident p {
+  margin: 0;
+  font-size: 20px;
 }
 
 .black-title {
